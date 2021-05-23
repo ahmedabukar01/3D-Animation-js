@@ -36,6 +36,7 @@ body{
 .sneakers img{
     width:25rem;
     z-index: 2;
+    transition: all 0.75s ease-out;
 }
 .circle{
     width:13rem;
@@ -52,16 +53,19 @@ body{
 }
 .info h2{
     font-size: 3rem;
+    transition: all 0.75s ease-out;
 }
 .info h4{
     font-size: 1.3rem;
     padding: 2rem 0rem;
     color:#585858;
     font-weight: lighter;
+    transition: all 0.75s ease-out;
 }
 .sizes{
     display: flex;
     justify-content: space-between;
+    transition: all 0.75s ease-out;
 }
 .sizes button{
     padding:0.5rem 1.5rem;
@@ -71,6 +75,7 @@ body{
     border-radius: 30px;
     color:red;
     cursor:pointer;
+    transition: all 0.75s ease-out;
 }
 button.active{
     background:red;
@@ -78,6 +83,7 @@ button.active{
 }
 .purchase{
     margin-top:4rem;
+    transition: all 0.75s ease-out;
 }
 .purchase button{
     width:100%;
